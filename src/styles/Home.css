@@ -1,0 +1,134 @@
+.home {
+    background: black;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    padding: 20px;
+}
+
+/* Hero Section */
+.hero {
+    background: center center/cover;
+    color: whitesmoke;
+    padding: 80px 20px;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    margin-top: 5em;
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: rgba(100, 84, 84, 0.523);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #000c04;
+    color: #11f27a;
+}
+
+/* Featured EVs */
+.featured-evs {
+    margin-top: 50px;
+}
+
+.ev-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.ev-card {
+    background:#212223;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Fixed card width */
+    text-align: center;
+}
+
+/* Ensure all images inside .ev-card are equal in size */
+.ev-card img {
+    width: 100%; /* Makes the image fill the card width */
+    height: 200px; /* Fixed height for consistency */
+    object-fit: cover; /* Ensures images don't stretch but instead crop */
+    border-radius: 10px; /* Optional: Rounded corners */
+}
+
+.ev-card h3 {
+    margin-top: 10px;
+    font-size: 1.3rem;
+    color: whitesmoke;
+}
+
+.featured-evs p{
+    color: whitesmoke;
+}
+
+.featured-evs h2{
+    color: whitesmoke;
+}
+
+/* Why Choose Us */
+.why-choose {
+    margin-top: 50px;
+    padding: 40px;
+    background-color: #212223;
+    color: whitesmoke;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.feature {
+    text-align: center;
+    width: 250px;
+}
+
+.feature i {
+    font-size: 2rem;
+    color: #11f27a;
+    margin-bottom: 10px;
+}
+
+.feature h4 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+/* Call to Action */
+.cta {
+    margin-top: 50px;
+    padding: 40px;
+    background-color:  #212223;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+
+.cta h2 {
+    font-size: 2rem;
+}
+
+.cta p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,201 @@
+/* Main EV News Page */
+.ev-news {
+    background: whitesmoke;
+    color: black;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+}
+
+/* Headings */
+.ev-news h2 {
+    color: black;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.ev-news h3 {
+    font-size: 1.4rem;
+    color: black;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+/* Paragraphs */
+.ev-news p {
+    font-size: 1rem;
+    color: black;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* News Articles Section */
+.news-articles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.news-articles article {
+    background: #eaedf0;
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    margin-bottom: 12px;
+    text-align: left;
+    transition: 0.3s;
+}
+
+.news-articles article:hover {
+    transform: scale(1.02);
+}
+
+.news-articles p {
+    font-size: 1rem;
+    color: black;
+}
+
+.news-articles a {
+    color: #0da65d;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.news-articles a:hover {
+    color: white;
+}
+
+/* YouTube Video Section */
+.ev-video {
+    margin-top: 20px;
+}
+
+.ev-video iframe {
+    width: 90%;
+    max-width: 560px;
+    height: 315px;
+    border-radius: 8px;
+}
+
+/* EV Quiz Section */
+.ev-quiz {
+    margin-top: 40px;
+    padding: 20px;
+    background: whitesmoke;
+    border-radius: 10px;
+}
+
+.quiz-question {
+    margin-bottom: 15px;
+}
+
+.quiz-question h3 {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+}
+
+/* Quiz Options */
+.quiz-option {
+    display: inline-block;
+    padding: 8px 15px;
+    margin: 5px;
+    background-color: #11f27a;
+    border: none;
+    color: black;
+    font-weight: bold;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Default Hover Effect */
+.quiz-option:hover {
+    background-color: #0da65d;
+    color: white;
+}
+
+/* Selected Answer (User's Choice) */
+.selected-answer {
+    background-color: #28a745 !important; /* Green for selected */
+    color: white !important;
+    border: 2px solid white;
+    box-shadow: 0px 0px 10px rgba(40, 167, 69, 0.8);
+}
+
+/* Unselected Answer */
+.unselected-answer {
+    background-color: #6c757d !important; /* Grey for unselected */
+    color: white !important;
+}
+
+/* Quiz Submit Button */
+.btn-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 15px;
+    background-color: #11f27a;
+    color: black;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0da65d;
+    color: white;
+}
+
+/* Quiz Results Section */
+.quiz-results {
+    margin-top: 15px;
+    font-size: 1.2rem;
+    color: #11f27a;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .ev-news h2 {
+        font-size: 1.8rem;
+    }
+
+    .ev-news h3 {
+        font-size: 1.2rem;
+    }
+
+    .ev-news p {
+        font-size: 0.95rem;
+    }
+
+    .news-articles article {
+        width: 90%;
+    }
+
+    .ev-video iframe {
+        width: 100%;
+        height: 250px;
+    }
+
+    .quiz-question h3 {
+        font-size: 1.1rem;
+    }
+
+    .quiz-option {
+        font-size: 0.85rem;
+    }
+
+    .btn-primary {
+        font-size: 0.95rem;
+    }
+
+    .quiz-results {
+        font-size: 1rem;
+    }
+}
